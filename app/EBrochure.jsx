@@ -188,25 +188,7 @@ export default function EBrochure() {
           <div className={`bg ${fading ? "fo" : "fi"}`}>
             <img src={slide.image} alt={`Slide ${current + 1}`} />
           </div>
-{/* 
-          <div className="topbar">
-            <div className="logo">E&nbsp;Brochure</div>
-            <div className="counter">
-              <b>{String(current + 1).padStart(2, "0")}</b> / {String(TOTAL).padStart(2, "0")}
-            </div>
-          </div> */}
 
-          {/* <div className={`content ${fading ? "co" : "ci"}`}>
-            <span className="tag">{slide.tag}</span>
-            <div className="headline">{slide.title}</div>
-            <div className="subtitle">{slide.subtitle}</div>
-            <button className="cta" onClick={next}>
-              Next Page
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </button>
-          </div> */}
 
           <div className="nav">
             <div className="dots">
