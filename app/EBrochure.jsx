@@ -5,11 +5,11 @@ import { useState, useEffect, useRef } from "react";
 const SLIDES = [
   { id: 1, image: "/photos/slide1.jpeg",  },
   { id: 2, image: "/photos/slide2.jpeg", },
-  { id: 3, image: "/photos/slide3.jpeg",  },
+  { id: 3, image: "/photos/slide7.jpeg",  },
   { id: 4, image: "/photos/slide4.jpeg", },
   { id: 5, image: "/photos/slide5.jpeg", },
-  { id: 6, image: "/photos/slide6.jpeg", },
-  { id: 7, image: "/photos/slide7.jpeg",},
+  { id: 6, image: "/photos/slide3.jpeg", },
+  { id: 7, image: "/photos/slide6.jpeg",},
   { id: 8, image: "/photos/slide8.jpeg",},
 ];
 
